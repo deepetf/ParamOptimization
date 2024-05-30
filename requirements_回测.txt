@@ -1,0 +1,17 @@
+#Ta_Lib whl 下载地址： https://github.com/cgohlke/talib-build/releases
+#出现GBK错误：
+#C:\Users\zhang\Trading\Requirments>set PYTHONUTF8=1
+#C:\Users\zhang\Trading\Requirments>pip install -r requirements.txt
+
+#pandas 1.3.5 和 sqlalchemy==1.4.46 匹配
+pandas==1.3.5
+
+numpy
+xlsxwriter
+openpyxl
+opencv-python
+optuna                                  #参数优化
+joblib                                  #多进程支持
+quantstats
+IPython
+pyarrow
